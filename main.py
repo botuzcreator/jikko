@@ -8,8 +8,8 @@ TOKEN = "6722967814:AAH0-xziAMxRHl8C85jPuWwXpsYp-b8qXRY"
 bot = telebot.TeleBot(TOKEN)
 
 # Webhook sozlamalari
-WEBHOOK_SECRET = "your_webhook_secret"  # Maxfiy yo'l
-WEBHOOK_URL = f"https://your-app-name.herokuapp.com/{WEBHOOK_SECRET}"
+WEBHOOK_SECRET = "jikojiko"  # Maxfiy yo'l
+WEBHOOK_URL = f"https://jikko.herokuapp.com/{WEBHOOK_SECRET}"
 
 # Flask ilovasini yaratish
 app = Flask(__name__)
